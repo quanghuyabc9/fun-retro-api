@@ -10,11 +10,11 @@ import { BoardsModule } from './boards/boards.module'
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'sql12.freemysqlhosting.net',
       port: 3306,
-      username: 'root',
-      password: '123456',
-      database: 'fun_retro',
+      username: 'sql12373171',
+      password: 'lRsxkAPC3p',
+      database: 'sql12373171',
       entities: [Board],
       synchronize: true,
       autoLoadEntities: true,
